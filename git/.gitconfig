@@ -1,0 +1,29 @@
+[user]
+# Required
+#    name = TODO
+#    email = TODO
+# Optional
+#    signingkey = TODO
+
+# Optional
+#[commit]
+#   gpgsign = true
+#[gpg]
+#    program = /opt/homebrew/bin/gpg
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[push]
+    autoSetupRemote = true
+[global]
+[diff]
+    tool = vimdiff
+[merge]
+    tool = vimdiff
+[mergetool]
+    keepBackup = false
+[mergetool "vimdiff"]
+    layout = (LOCAL,REMOTE)/MERGED
