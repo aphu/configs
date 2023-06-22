@@ -28,7 +28,18 @@ config.keys  = {
         key = 'd',
         mods = 'SUPER|SHIFT',
         action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' }
+    },
+    {
+	key = 'LeftArrow',
+	mods = 'OPT',
+	action = wezterm.action.{ SendString="\x1bb" }
     }
+    {
+	key = 'RightArrow',
+	mods = 'OPT',
+	action = wezterm.action.{ SendString="\x1bf" }
+    }
+
 }
 
 -- and finally, return the configuration to wezterm
