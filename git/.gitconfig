@@ -27,3 +27,6 @@
     keepBackup = false
 [mergetool "vimdiff"]
     layout = (LOCAL,REMOTE)/MERGED
+[core]
+    editor = nvim
+
