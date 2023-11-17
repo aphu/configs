@@ -29,4 +29,6 @@
     layout = (LOCAL,REMOTE)/MERGED
 [core]
     editor = nvim
-
+[rerere]
+    enabled = true
+    autoupdate = true
