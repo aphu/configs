@@ -10,7 +10,10 @@ set tabstop=4
 syntax on
 
 call plug#begin()
+Plug 'joshdick/onedark.vim'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
 call plug#end()
 
+colorscheme onedark
+set termguicolors
