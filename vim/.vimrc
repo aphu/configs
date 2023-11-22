@@ -10,10 +10,14 @@ set tabstop=4
 syntax on
 
 call plug#begin()
+Plug 'airblade/vim-gitgutter'
+Plug 'jiangmiao/auto-pairs'
 Plug 'joshdick/onedark.vim'
+Plug 'junegunn/vim-easy-align'
 Plug 'preservim/nerdtree'
-Plug 'tpope/vim-fugitive'
 call plug#end()
 
 colorscheme onedark
 set termguicolors
+
+"Plugin Configs
