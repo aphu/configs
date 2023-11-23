@@ -15,6 +15,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'joshdick/onedark.vim'
 Plug 'junegunn/vim-easy-align'
 Plug 'preservim/nerdtree'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 colorscheme onedark
