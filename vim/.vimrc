@@ -9,6 +9,8 @@ set tabstop=4
 
 syntax on
 
+xnoremap @ :normal! @a<cr>
+
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
