@@ -1,5 +1,5 @@
 theme=Atom One Dark
 copy-on-select=true
-clipboard-read=true
-clipboard-write=true
+clipboard-read=allow
+clipboard-write=allow
 
