@@ -1,0 +1,23 @@
+(
+    selected_tab: Some(Reset),
+    command_fg: Some(Rgb(171, 178, 191)),      // Light Gray (#abb2bf)
+    selection_bg: Some(Rgb(62, 68, 81)),        // Darker Gray/Blue (#3e4451)
+    selection_fg: Some(Rgb(230, 235, 241)),     // White-ish
+    cmdbar_bg: Some(Rgb(33, 37, 43)),           // Dark Background (#21252b)
+    cmdbar_extra_lines_bg: Some(Rgb(33, 37, 43)),
+    disabled_fg: Some(Rgb(92, 99, 112)),        // Comments/Muted Gray (#5c6370)
+    diff_line_add: Some(Rgb(152, 195, 121)),    // Green (#98c379)
+    diff_line_delete: Some(Rgb(224, 108, 117)), // Red (#e06c75)
+    diff_file_added: Some(Rgb(152, 195, 121)),
+    diff_file_removed: Some(Rgb(224, 108, 117)),
+    diff_file_moved: Some(Rgb(198, 120, 221)),  // Purple (#c678dd)
+    diff_file_modified: Some(Rgb(209, 154, 102)),// Orange (#d19a66)
+    commit_hash: Some(Rgb(198, 120, 221)),
+    commit_time: Some(Rgb(86, 182, 244)),       // Cyan (#56b6c2)
+    commit_author: Some(Rgb(97, 175, 239)),     // Blue (#61afef)
+    danger_fg: Some(Rgb(224, 108, 117)),
+    push_gauge_bg: Some(Rgb(97, 175, 239)),
+    push_gauge_fg: Some(Rgb(40, 44, 52)),       // Main Dark Background (#282c34)
+    tag_fg: Some(Rgb(229, 192, 123)),           // Yellow (#e5c07b)
+    branch_fg: Some(Rgb(198, 120, 221)),
+)
