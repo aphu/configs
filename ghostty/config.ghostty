@@ -11,6 +11,6 @@ keybind = global:cmd+option+enter=toggle_quick_terminal
 quick-terminal-autohide = true
 quick-terminal-position = top
 quick-terminal-screen = macos-menu-bar
+shell-integration-features = ssh-env,ssh-terminfo
 theme = Atom One Dark
 unfocused-split-opacity = 0
-

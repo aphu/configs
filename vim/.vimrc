@@ -6,7 +6,7 @@ set number
 set relativenumber
 set shiftwidth=4
 set tabstop=4
-set ingorecase smartcase
+set ignorecase smartcase
 set hlsearch
 
 syntax on
