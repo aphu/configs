@@ -1,16 +1,22 @@
 clipboard-read = allow
 clipboard-write = allow
+
 copy-on-select = true
+
 keybind = cmd+enter=new_split:down
 keybind = cmd+shift+down=goto_split:down
 keybind = cmd+shift+enter=new_split:right
 keybind = cmd+shift+left=goto_split:left
 keybind = cmd+shift+right=goto_split:right
 keybind = cmd+shift+up=goto_split:up
-keybind = global:cmd+option+enter=toggle_quick_terminal
+keybind = global:cmd+shift+j=toggle_quick_terminal
+
 quick-terminal-autohide = true
 quick-terminal-position = top
 quick-terminal-screen = macos-menu-bar
+
 shell-integration-features = ssh-env,ssh-terminfo
+
 theme = Atom One Dark
+
 unfocused-split-opacity = 0
